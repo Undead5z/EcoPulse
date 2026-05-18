@@ -1,2 +1,2 @@
 # EcoPulse
-Building Cleaner, Smarter Communities
+The Pulse of Sustainable Cities
