@@ -1,4 +1,5 @@
 ﻿import { useState, useEffect, useRef, useCallback } from "react";
+import { supabase } from "./supabase";
 
 const ACCENT = "#22c55e";
 const ACCENT_DARK = "#4ade80";
@@ -673,6 +674,7 @@ export default function EcoPulse() {
       )}
 
       {/* REPORT */}
+        {/* REPORT */}
 {activeSection === "report" && (
   <div style={sectionStyle}>
     <Card
@@ -1160,7 +1162,6 @@ export default function EcoPulse() {
     </Card>
   </div>
 )}
-
       {/* CONTACT */}
       {activeSection === "contact" && (
         <div style={sectionStyle}>
